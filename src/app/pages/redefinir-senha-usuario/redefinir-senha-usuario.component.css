@@ -1,4 +1,4 @@
- .login-container {
+.login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,22 @@
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Defina a largura desejada em porcentagem */
+    max-width: 600px; /* Defina uma largura máxima para evitar que o card fique muito largo. */
+    height: 570px; /* Defina a altura desejada em pixels */
   }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-info {
+    width: 100%;
+    text-align: left;
+  }
+
   .login-button {
     background-color: #5CC8F2;
     color: #fff;
@@ -45,7 +60,6 @@
     max-width: 400px; 
     margin: 0 auto; 
   }
-  
  
   .background {
     background-image: url('../../../assets/background.jpg'); /* Substitua 'background.jpg' pelo caminho correto para sua imagem de fundo */
@@ -66,6 +80,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
+    
   }
   
   .header {
@@ -92,7 +107,8 @@
 
   .inputs-login{
     padding: 12px;
-    width: 20rem;
+    width: 100%; 
+    max-width: 325px; 
     margin-bottom: 20px;
     border: 1.4px solid #c1c1c1;
     border-radius: 7px;

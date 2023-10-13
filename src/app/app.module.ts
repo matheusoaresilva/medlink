@@ -11,11 +11,16 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { CadastroUsuarioComponent } from './pages/cadastro-usuario/cadastro-usuario.component';
+import { RedefinirSenhaUsuarioComponent } from './pages/redefinir-senha-usuario/redefinir-senha-usuario.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    CadastroUsuarioComponent,
+    RedefinirSenhaUsuarioComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +30,8 @@ import {MatCardModule} from '@angular/material/card';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
