@@ -10,6 +10,10 @@
     margin-bottom: 40px;
   }
   
+  img{
+    cursor: pointer;
+  }
+
   .form-group {
     margin: 10px;
     text-align: center;
